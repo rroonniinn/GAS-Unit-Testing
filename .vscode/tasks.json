@@ -1,0 +1,36 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [{
+			"type": "gulp",
+			"task": "rebuild",
+			"problemMatcher": [
+				"$gulp-tsc"
+			],
+			"group": "build"
+		},
+		{
+			"type": "gulp",
+			"task": "default",
+			"problemMatcher": [
+				"$gulp-tsc"
+			]
+		},
+		{
+			"type": "gulp",
+			"task": "jsGas",
+			"problemMatcher": []
+		},
+		{
+			"type": "gulp",
+			"task": "wpoAll",
+			"problemMatcher": []
+		},
+		{
+			"type": "gulp",
+			"task": "deleteAll",
+			"problemMatcher": []
+		}
+	]
+}

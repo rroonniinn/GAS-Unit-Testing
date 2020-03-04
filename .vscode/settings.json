@@ -1,0 +1,16 @@
+{
+  "spellright.language": [
+    "en",
+    "pl"
+  ],
+  "spellright.documentTypes": [
+    "latex",
+    "plaintext"
+  ],
+  "files.exclude": {
+    "node_modules": true,
+    "package-lock.json": true,
+    ".vscode": true,
+    "docs": true
+  }
+}
