@@ -4,6 +4,8 @@ import { getLastNotEmptyColInRow } from '../../GAS | Library/v02/gas/qunit/getLa
 import { getRangeRelative } from '../../GAS | Library/v02/gas/qunit/getRangeRelative';
 import { isColumn } from '../../GAS | Library/v02/gas/qunit/isColumn';
 import { getRangeRestricted } from '../../GAS | Library/v02/gas/qunit/getRangeRestricted';
+import { getFirstCellFromString } from '../../GAS | Library/v02/gas/qunit/getFirstCellFromString';
+import { getColAndRowFromCellAsNum } from '../../GAS | Library/v02/gas/qunit/getColAndRowFromCellAsNum';
 
 import {} from './env';
 
@@ -12,6 +14,8 @@ global.tests = () => {
 	// getLastNotEmptyRowInCol();
 	// getLastNotEmptyColInRow();
 	// getRangeType();
-	getRangeRelative();
+	// getRangeRelative();
 	// getRangeRestricted();
+	getFirstCellFromString();
+	getColAndRowFromCellAsNum();
 };
