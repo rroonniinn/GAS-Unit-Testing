@@ -11,11 +11,11 @@ import {} from './env';
 
 global.tests = () => {
 	// isColumn();
-	// getLastNotEmptyRowInCol();
+	getLastNotEmptyRowInCol();
 	// getLastNotEmptyColInRow();
 	// getRangeType();
 	// getRangeRelative();
 	// getRangeRestricted();
-	getFirstCellFromString();
-	getColAndRowFromCellAsNum();
+	// getFirstCellFromString();
+	// getColAndRowFromCellAsNum();
 };
