@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getRangeType } from '../../GAS | Library/v02/gas/qunit/getRangeType';
 import { getLastNotEmptyRowInCol } from '../../GAS | Library/v02/gas/qunit/getLastNotEmptyRowInCol';
 import { getLastNotEmptyColInRow } from '../../GAS | Library/v02/gas/qunit/getLastNotEmptyColInRow';
@@ -6,16 +7,20 @@ import { isColumn } from '../../GAS | Library/v02/gas/qunit/isColumn';
 import { getRangeRestricted } from '../../GAS | Library/v02/gas/qunit/getRangeRestricted';
 import { getFirstCellFromString } from '../../GAS | Library/v02/gas/qunit/getFirstCellFromString';
 import { getColAndRowFromCellAsNum } from '../../GAS | Library/v02/gas/qunit/getColAndRowFromCellAsNum';
+import { getIdFromUrl } from '../../GAS | Library/v02/gas/qunit/getIdFromUrl';
+import { randomFromArray } from '../../GAS | Library/v02/arr/randomFromArray';
 
 import {} from './env';
 
 global.tests = () => {
 	// isColumn();
-	getLastNotEmptyRowInCol();
+	// getLastNotEmptyRowInCol();
 	// getLastNotEmptyColInRow();
 	// getRangeType();
 	// getRangeRelative();
 	// getRangeRestricted();
 	// getFirstCellFromString();
 	// getColAndRowFromCellAsNum();
+	// getIdFromUrl();
+	randomFromArray();
 };
