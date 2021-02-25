@@ -12,5 +12,6 @@
     "package-lock.json": true,
     ".vscode": true,
     "docs": true
-  }
+  },
+  "git.ignoreLimitWarning": true
 }
